@@ -1,0 +1,6 @@
+//Action type constants
+export const LOAD_DATA_SUCCESS = "LOAD_DATA_SUCCESS";
+export const LOAD_DATA_FAILURE = "LOAD_DATA_FAILURE";
+export const FILTER_APPLIED = "FILTER_APPLIED";
+export const  POLL_DATA_SUCCESS = "POLL_DATA_SUCCESS";
+export const  POLL_DATA_FAILURE = "POLL_DATA_FAILURE";
