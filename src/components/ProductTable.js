@@ -2,7 +2,6 @@ import React from "react";
 import {ProductImage} from "../components/ProductImage";
 import {ProductInfoDetails} from "../components/ProductInfoDetails";
 import {Table,TableBody,TableCell,TableHead,TablePagination,TableRow,Paper,TableFooter} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core";
 import {FilterComponent} from "./FilterComponent";
 
 
@@ -35,16 +34,6 @@ export class  ProductTable extends React.Component {
 })
   }
   render() {
-    /*const  root = {
-      width: '100%',
-      overflowX: 'auto'
-    };
-    const csstable = {
-      minWidth: 650,
-    };
-    const tableWrapper = {
-
-    };*/
      let rows = this.props.devices;
      let tableBodyData = [];
     rows.slice(this.state.page * this.state.rowsPerPage, this.state.page * this.state.rowsPerPage + this.state.rowsPerPage).map((row) => {
